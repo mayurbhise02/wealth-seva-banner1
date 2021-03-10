@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  font-family: 'Roboto', sans-serif; }
+
+h1 {
+  font-family: "Shippori Mincho B1", serif;
+  color: #F7A50C; }
+
+h2 {
+  font-family: 'Shippori Mincho B1', serif;
+  color: #130086; }
+
+p {
+  letter-spacing: 0.6px;
+  line-height: 25px; }
+
+.header-banner-main {
+  background-color: #14008A;
+  color: white;
+  padding-bottom: 40px; }
+
+.btn-style {
+  padding: 14px 40px;
+  border-radius: 30px;
+  font-weight: bold;
+  background-color: #28a745;
+  font-family: 'Open Sans', sans-serif; }
+
+.nav-link {
+  color: #EFD52A !important;
+  margin: 0 20px;
+  font-weight: 900 !important; }
+  .nav-link:hover {
+    opacity: 0.8; }
+
+.banner-main {
+  height: 630px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center; }
+
+.banner-content {
+  margin-top: 80px; }
+
+.banner-Img {
+  margin-top: 50px; }
+
+.carousel-control-prev {
+  position: relative; }
+
+.carousel-control-next {
+  position: relative; }
+
+.arrow-icon {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 40px; }
+
+.investor-main {
+  padding: 0 20px; }
+
+.wrap-order {
+  order: 2; }
+
+.wrap-order-img {
+  order: 1; }
+
+.form-control {
+  font-size: 15px; }
+
+.footer-form {
+  text-align: center;
+  padding: 30px 25px; }
+
+.footer-map {
+  padding: 0; }
+
+/* Medium devices (tablets, 768px and up) */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .banner-content {
+    text-align: left; }
+  .footer-form {
+    text-align: left;
+    padding: 0; }
+  .investor-main {
+    padding: 100px 20px; }
+  .wrap-order {
+    order: 1; }
+  .wrap-order-img {
+    order: 2; } }
+
+/* Extra large devices (large desktops, 1200px and up) */
